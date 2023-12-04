@@ -6,10 +6,13 @@ import {Routes,Route} from "react-router-dom";
 import Projects from "./Projects";
 import FeaturedProjects from "./Featured-Project";
 import NewProjects from "./New-Projects";
+import { AuthProvider } from "./Auth";
 import Login from "./Login"; 
+import Logout from "./Logout";
 
 const Main = () => {
     return ( 
+        <AuthProvider>
             <div className="main"> 
                 <div className="content">
                 <Navbar />
@@ -23,11 +26,12 @@ const Main = () => {
                     <Route path="new" element={<NewProjects />}/>
                 </Route>
                 <Route path="/login" element={<Login />}/>
+                <Route path="/logout" element={<Logout />}/>
             </Routes>
             </div>
-            </div>
-                        
+            </div>            
         </div>  
+        </AuthProvider>
      );
 }
  
