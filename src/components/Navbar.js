@@ -1,6 +1,6 @@
 import{NavLink}from "react-router-dom"
 import { useAuth } from "./Auth";
-// import PrivateRoute from "./Private-Route";
+import PrivateRoute from "./Private-Route";
 
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
             {user ? (
                     <NavLink to="/logout" onClick={logout}>Logout</NavLink>
             ) : (
-                    <NavLink to="/login">Employee Login</NavLink>
+                    <NavLink to="/login">Login</NavLink>
             )}
         </nav>
         </div>

@@ -3,7 +3,6 @@ import { useAuth } from "./Auth";
 import { useNavigate } from "react-router-dom";
 import log1 from "./images/l1.jpg";
 
-
 const Login = () => {
     const navigate = useNavigate();
     const { login } = useAuth();
