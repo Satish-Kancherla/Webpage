@@ -90,7 +90,7 @@ span{
 }
 .img3:hover .img3-p{
      
-      height: 300px;width: 300px;color: black;position: absolute;text-align: center;
+      height: 88.1%;width: 300px;color: black;position: absolute;text-align: center;visibility: visible;
     
  }
 
@@ -346,7 +346,7 @@ span{
 }
 
 .cont-2b input{
-       font-size: 20px;border-top:none;border-right: none;border-left: none;
+       font-size: 20px;border-top:none;border-right: none;border-left: none;outline: none;
       background-color: transparent;color: black;border-bottom: 2px solid black;margin-bottom: 10px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .cont-2b textarea{
@@ -366,7 +366,8 @@ span{
 }
 
 .cont-5a input{
-      font-size: 15px;text-align: center; background-color: transparent;color: black;border:2px solid black;height:40px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 15px;text-align: center; background-color: transparent;color: black;border:2px solid black;height:40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;outline: none;
 }
 .cont-5a button{
       width:100px;height: 42px;background-color:black;color: #FFF6F6;border: none;font-size: 15px;font-weight: bold;
@@ -408,7 +409,7 @@ span{
       padding: 50px; background-color:white;text-align: left;border-spacing: 20px;color: black;
 }   
 .add-1 input{
-       font-size: 20px;border-top:none;border-right: none;border-left: none;
+       font-size: 20px;border-top:none;border-right: none;border-left: none;outline: none;
       background-color: transparent;color: black;border-bottom: 2px solid black;margin-bottom: 10px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .add-1 textarea{
